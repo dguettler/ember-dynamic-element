@@ -1,9 +1,3 @@
-{{#power-select
-  options=statusOptions
-  onChange=(action (mut status))
-as |option|
-}}
-  {{option}}
-{{/power-select}}
-
-{{outlet}}
+{{#let (element "div") as |Tag|}}
+  <Tag class="my-div">hello world!</Tag>
+{{/let}}
